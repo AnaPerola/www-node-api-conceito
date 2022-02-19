@@ -12,8 +12,8 @@ describe('Create challenge submission use case', () => {
     const challengesRepository = new InMemoryChallengesRepository();
 
     const student = Student.create({
-      name: 'Diego',
-      email: 'doe@example.com',
+      name: 'Ana',
+      email: 'ana@example.com',
     })
 
     const challenge = Challenge.create({
